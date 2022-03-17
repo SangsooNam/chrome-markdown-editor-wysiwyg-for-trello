@@ -1,0 +1,12 @@
+.CodeMirror pre {
+    box-shadow: none !important;
+} 
+
+.CodeMirror .cm-spell-error {
+    background: none !important;
+}
+
+#edit-controls {
+    position: relative;
+    top: -25px;
+}

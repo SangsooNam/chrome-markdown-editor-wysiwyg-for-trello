@@ -1,0 +1,14 @@
+{
+   "manifest_version": 3,
+   "name": "Markdown Editor(WYSIWYG) for Trello",
+   "description": "Use Markdown Editor(WYSIWYG) to write down the description easily",
+   "content_scripts": [ {
+      "css": [ "simplemde.min.css", "style.css" ],
+      "js": [ "jquery-3.6.0.min.js", "simplemde.min.js", "background.js" ],
+      "matches": [ "*://trello.com/*" ]
+   } ],
+   "icons": {
+      "128": "image/icon.png"
+   },      
+   "version": "1.0.0"
+}

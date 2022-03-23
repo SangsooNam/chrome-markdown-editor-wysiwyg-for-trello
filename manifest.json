@@ -4,7 +4,7 @@
    "description": "Use Markdown Editor(WYSIWYG) to write down the description easily",
    "content_scripts": [ {
       "css": [ "simplemde.min.css", "style.css" ],
-      "js": [ "js/jquery-3.6.0.min.js", "js/simplemde.min.js", "background.js" ],
+      "js": [ "jquery-3.6.0.min.js", "simplemde.min.js", "background.js" ],
       "matches": [ "*://trello.com/*" ]
    } ],
    "icons": {

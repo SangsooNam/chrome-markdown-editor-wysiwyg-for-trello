@@ -63,9 +63,9 @@ function attacheEditor() {
                 $(".edit-controls").hide();
             });
 
-            // When there is no description, open the edit mode
+            // When there is no description
             if($('.current').text() === "") {                            
-                $('#show-editor').click();
+                $('.description-content').parent().removeClass('editing')
             }
         }
 
